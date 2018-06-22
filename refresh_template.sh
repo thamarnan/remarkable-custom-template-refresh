@@ -47,7 +47,7 @@ for templatefile in *.png ; do
 
     #Default to Creative Category
     printf "\t\t\"categories\": [\n"  >> $current_file
-        printf "\t\t\t\"Creative\"\n"  >> $current_file
+        printf "\t\t\t\"Custom\"\n"  >> $current_file
     printf "\t\t]\n"  >> $current_file
     printf "\t}"  >> $current_file
     
