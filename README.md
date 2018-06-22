@@ -49,7 +49,9 @@ result in:
     remarkable: /usr/share/remarkable/templates/
     
 
-Then turn off the remarkable and turn back on.
+once complelte
+run this command to restart the service
+`systemctl restart xochitl`
 You'll see custom template under "Creative" Category with Blank thumbnail
 
 I'm still figuring out how to get the thumbnail to view properly
