@@ -18,9 +18,9 @@ First copy "refresh_template.sh" from this repository to the same folder level a
 
 
 and To run the refresh
-First login to remarkable tablet via usb or ssh
-username is root
-password is in the Settings/About/Copy Right Notice/Bottom Page
+First login to remarkable tablet via usb or ssh  
+username is root  
+password is in the Settings/About/Copy Right Notice/Bottom Page  
 
     root@192.168.1.99's password:
     ｒｅＭａｒｋａｂｌｅ
