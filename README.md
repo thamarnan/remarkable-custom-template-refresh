@@ -6,7 +6,7 @@ to make the browing of template faster and nicer, but result in harder to add th
 This is the instruction how to add the template with the help of some script.
 # Usage:
 
-First copy "refresh_template.sh" to the same folder level as you have custom template, something like this:
+First copy "refresh_template.sh" from this repository to the same folder level as you have custom template, something like this:
 
 
     /usr/share/remarkable/templates/refresh_template.sh
