@@ -55,8 +55,5 @@ run this command to restart the service
 
 You'll see custom template under "Custom" Category when choosing template
 
-
-
-I'm still figuring out how to get the thumbnail to view properly
-
+![](https://github.com/thamarnan/remarkable-custom-template-refresh/blob/master/images/custom_screenshot.jpeg?raw=true)
 
