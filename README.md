@@ -32,9 +32,9 @@ Once login navigator the template folder:
 
 `cd /usr/share/remarkable/templates`
 
-then run
-`chmod u+x ./refresh_template.sh`
-`./refresh_template.sh`
+then run  
+`chmod u+x ./refresh_template.sh`  
+`./refresh_template.sh`  
 
 result in:
 
