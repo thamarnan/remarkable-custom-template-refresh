@@ -52,7 +52,10 @@ result in:
 once complelte
 run this command to restart the service
 `systemctl restart xochitl`
-You'll see custom template under "Creative" Category with Blank thumbnail
+
+You'll see custom template under "Custom" Category when choosing template
+
+
 
 I'm still figuring out how to get the thumbnail to view properly
 
