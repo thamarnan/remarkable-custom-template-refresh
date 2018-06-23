@@ -56,3 +56,7 @@ done
 
 printf "\n\t]\n"  >> $current_file
 printf "}\t\n"  >> $current_file
+
+echo "Restarting application service"
+systemctl restart xochitl
+
