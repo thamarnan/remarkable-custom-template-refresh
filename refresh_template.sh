@@ -13,7 +13,7 @@ if [ `md5sum  templates.json | awk {'print $1'}` = $original_md5 ]; then
 else
 #    echo "[INFO] Modified version temlates.json.. backing with date"
     today=`date +%Y-%m-%d-%H_%M_%S`
-#    cp templates.json templates.json_$today
+    cp templates.json templates.json_$today
 fi
 
 lastlinen=`expr $(wc -l templates.json.original | awk '{print $1}') - 2`
