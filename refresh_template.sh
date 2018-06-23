@@ -8,12 +8,13 @@ current_file="templates.json"
 
 if [ `md5sum  templates.json | awk {'print $1'}` = $original_md5 ]; then
     echo "[INFO] found factory codex 1.4.0.7 templates.json"
-    echo "[INFO] Backing up to templates.json.original"
+    echo "[INFO] Backing up to templates.json.factory"
+    cp templates.json templates.json.factory
     cp templates.json templates.json.original
 else
-#    echo "[INFO] Modified version temlates.json.. backing with date"
-    today=`date +%Y-%m-%d-%H_%M_%S`
-    cp templates.json templates.json_$today
+#   echo "[INFO] Modified version temlates.json.. backing with date"
+#   today=`date +%Y-%m-%d-%H_%M_%S`
+    cp templates.json templates.json.original
 fi
 
 lastlinen=`expr $(wc -l templates.json.original | awk '{print $1}') - 2`
@@ -59,4 +60,3 @@ printf "}\t\n"  >> $current_file
 
 echo "Restarting application service"
 systemctl restart xochitl
-
