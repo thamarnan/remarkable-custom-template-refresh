@@ -1,5 +1,4 @@
 #!/bin/bash
-filename='./templates.json'
 
 #md5sum of templates.json version 1.4.0.7
 original_md5=0e7d0b7175e8d99028e0b66756f27f08
@@ -21,7 +20,6 @@ lastlinen=`expr $(wc -l templates.json.original | awk '{print $1}') - 2`
 sed -n "1,$lastlinen p" templates.json.original > templates.json
 
 for templatefile in *.png ; do
-
 #    echo $templatefile
     name="${templatefile%.*}"
     ext="${templatefile##*.}"
