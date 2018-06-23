@@ -36,12 +36,12 @@ then run
 `chmod u+x ./refresh_template.sh`  
 (This only need to run once to make file executable. Next time you the same file, you dont need to run again, but it doesn't hurt if you accidentally run more than once)
 
-Then run
+And then...  
 
+`./refresh_template.sh`   
 :warning: Please save your work on your tablet by go to main screen before run this command.
 
-Once the template is finished, it will restart the application service.
-`./refresh_template.sh`  
+Once the template is finished, it will restart the application service.  
 
 result in:
 
