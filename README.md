@@ -57,3 +57,6 @@ You'll see custom template under "Custom" Category when choosing template
 
 ![](https://github.com/thamarnan/remarkable-custom-template-refresh/blob/master/images/custom_screenshot.jpeg?raw=true)
 
+# Tips
+if you put the LS in front of your custom filename,
+The script will mark as Landscape as well.
