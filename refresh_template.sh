@@ -40,7 +40,7 @@ for templatefile in *.png ; do
     printf "\t\t\"filename\": \"%s\",\n" "$name"  >> $current_file
     printf "\t\t\"iconCode\": \"%s\",\n" "\\ue9fe"  >> $current_file
 
-    #Adding ladscape true of LS Found
+    #Adding landscape = true if LS is in the name (case sensitive)
     if [[ $name = *"LS"* ]]; then
         printf "\t\t\"landscape\": \"%s\",\n" "true"  >> $current_file
     fi
