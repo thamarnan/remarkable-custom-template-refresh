@@ -34,7 +34,7 @@ Once login navigator the template folder:
 
 then run  
 `chmod u+x ./refresh_template.sh`  
-(This only need to run once to make file executable. Next time you the same file, you dont need to run again, but it doesn't hurt if you accidentally run more than once)
+(This only need to run once to make file executable. Next time if you are using the same file, you dont need to run it again, but it doesn't hurt if you accidentally run more than once)
 
 And then...  
 
