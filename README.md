@@ -56,7 +56,7 @@ result in:
     remarkable: /usr/share/remarkable/templates/
     
 
-You'll see custom template under "Custom" Category when choosing template
+:white_check_mark: You'll see custom template under "Custom" Category when choosing template
 
 ![](https://github.com/thamarnan/remarkable-custom-template-refresh/blob/master/images/custom_screenshot.jpeg?raw=true)
 
