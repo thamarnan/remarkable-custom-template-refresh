@@ -60,3 +60,7 @@ You'll see custom template under "Custom" Category when choosing template
 # Tips
 if you put the LS in front of your custom filename,
 The script will mark as Landscape as well.
+`LS_Mytodolist.png`
+or
+`My workoutsheet LS.png`
+both works.
