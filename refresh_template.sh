@@ -11,11 +11,12 @@ if [ `md5sum  templates.json | awk {'print $1'}` = $original_md5 ]; then
     cp templates.json templates.json.factory
     cp templates.json templates.json.original
 else
-#   echo "[INFO] Modified version temlates.json.. backing with date"
+
 
     cp templates.json templates.json.original
 fi
-
+#   echo "[INFO] Modified version temlates.json.. backing with date"
+#   you can comment this section below out if you dont need to backup everytime the script run
 today=`date +%Y-%m-%d-%H_%M_%S`
 cp templates.json templates_$today.json
 
@@ -23,7 +24,7 @@ lastlinen=`expr $(wc -l templates.json.original | awk '{print $1}') - 2`
 sed -n "1,$lastlinen p" templates.json.original > templates.json
 
 for templatefile in *.png ; do
-#    echo $templatefile
+#   echo $templatefile
     name="${templatefile%.*}"
     ext="${templatefile##*.}"
 
