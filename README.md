@@ -26,7 +26,7 @@ then we going to run it.
 To run, you can use any ssh client, For Windows checkout'putty', For Mac/Unix, just use built-in terminal
 
 username is root  
-password is in the Settings/About/Copy Right Notice/Bottom Page  
+password is in the Settings/About/Copyright Notice/{Bottom Section of the Page}  
 
     root@192.168.1.99's password:
     ｒｅＭａｒｋａｂｌｅ
