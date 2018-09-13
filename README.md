@@ -1,5 +1,5 @@
 # Refreshing Custom Template Manifest file
-After reMarkable tablet update to 1.4.0.7
+After reMarkable tablet update to version 1.4.0.7 and above
 They now added another layer of templates.json
 to make the rendering of template faster and nicer, but result in harder with more steps required before adding the custom template file.
 
