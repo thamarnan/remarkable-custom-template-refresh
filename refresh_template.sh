@@ -41,11 +41,13 @@ for templatefile in *.png ; do
     printf "\n\t,{">> $current_file
     printf "\t\t\"name\": \"%s\",\n" "$name"  >> $current_file
     printf "\t\t\"filename\": \"%s\",\n" "$name"  >> $current_file
-    printf "\t\t\"iconCode\": \"%s\",\n" "\\ue9fe"  >> $current_file
 
     #Adding landscape = true if LS is in the name (case sensitive)
     if [[ $name = *"LS"* ]]; then
-        printf "\t\t\"landscape\": \"%s\",\n" "true"  >> $current_file
+	printf "\t\t\"iconCode\": \"%s\",\n" "\\ue9fd"  >> $current_file
+	printf "\t\t\"landscape\": true,\n" >> $current_file
+    else
+	printf "\t\t\"iconCode\": \"%s\",\n" "\\ue9fe"  >> $current_file
     fi
 
     #Tagging to custom cateogry
