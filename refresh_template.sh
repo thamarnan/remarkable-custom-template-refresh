@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /usr/share/remarkable/templates/
+
 #md5sum of templates.json version 1.4.0.7
 original_md5=0e7d0b7175e8d99028e0b66756f27f08
 original_file="templates.json.original"
